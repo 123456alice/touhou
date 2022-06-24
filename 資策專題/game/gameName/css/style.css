@@ -1,0 +1,48 @@
+@media screen and (max-width:1830px) and (min-width:800px) {
+  #loss1 {
+    content: url("loss_1.jpg");
+  }
+
+  #loss2 {
+    content: url('loss_2.jpg');
+  }
+
+  #loss3 {
+    content: url('loss_3.jpg');
+  }
+
+  #loss4 {
+    content: url('loss_4.jpg');
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+  }
+
+}
+
+@media screen and (min-width:1830px) {
+  img {
+    width: 500px;
+    height: 450px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width:1200px) {
+
+  #loss1,
+  #loss2,
+  #loss3,
+  #loss4 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:700px) {
+  #gameDiv {
+    display: none;
+  }
+}
